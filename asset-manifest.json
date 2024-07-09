@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/nishappened/static/css/main.e1cdc635.css",
+    "main.js": "/nishappened/static/js/main.458564fe.js",
+    "static/js/453.e461330f.chunk.js": "/nishappened/static/js/453.e461330f.chunk.js",
+    "static/media/IMG_0122.PNG": "/nishappened/static/media/IMG_0122.a641fb24903f968bdd51.PNG",
+    "static/media/Autumn.PNG": "/nishappened/static/media/Autumn.d58d8509fbb93169b545.PNG",
+    "static/media/IMG_0123.PNG": "/nishappened/static/media/IMG_0123.f1802e53f4f80a22f84a.PNG",
+    "static/media/IMG_0121.PNG": "/nishappened/static/media/IMG_0121.43a5951f9890f042945f.PNG",
+    "static/media/IMG_0127.PNG": "/nishappened/static/media/IMG_0127.ec49b1d8326cdabc5391.PNG",
+    "static/media/IMG_0120.PNG": "/nishappened/static/media/IMG_0120.f6001616b3033aec9869.PNG",
+    "static/media/IMG_0128.PNG": "/nishappened/static/media/IMG_0128.95743dd89264758fd913.PNG",
+    "static/media/Aaure.PNG": "/nishappened/static/media/Aaure.00cda0a16b05662a476d.PNG",
+    "static/media/Starfire.PNG": "/nishappened/static/media/Starfire.d112f3727e01f2a03ca5.PNG",
+    "index.html": "/nishappened/index.html",
+    "main.e1cdc635.css.map": "/nishappened/static/css/main.e1cdc635.css.map",
+    "main.458564fe.js.map": "/nishappened/static/js/main.458564fe.js.map",
+    "453.e461330f.chunk.js.map": "/nishappened/static/js/453.e461330f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1cdc635.css",
+    "static/js/main.458564fe.js"
+  ]
+}
