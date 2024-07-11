@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from '../components/Navbar'
-;
+import Appbar from "../components/Appbar"
 
 import { createTheme, responsiveFontSizes } from '@mui/material/styles';
 
@@ -40,14 +40,14 @@ const Murals = () =>{
 
     return(
         <div>
-            <Navbar/>
+            <Appbar/>
             <Box
                 display="flex"
                 justifyContent="center"
                 alignItems="center"
                 // minHeight="100vh"
                 >
-            <Typography variant="h2" component="h2" color='secondary' alignContent='center' fontFamily={'roboto'}>
+            <Typography variant="h2" component="h2" color='secondary' alignContent='center' margin={"20px"} fontStyle={"cursive"} fontFamily={'roboto'}>
             Mural
             </Typography>
             </Box>

@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from '../components/Navbar'
-
+import Appbar from "../components/Appbar";
 
 import { createTheme, responsiveFontSizes } from '@mui/material/styles';
 
@@ -114,18 +114,19 @@ const Canvas = () =>{
 
     return(
         <div>
-<Navbar/>
+{/* <Navbar/> */}
+<Appbar/>
             <Box
                 display="flex"
                 justifyContent="center"
                 alignItems="center"
                 // minHeight="100vh"
                 >
-                  <ThemeProvider theme={fonttheme}>
-                  <Typography variant="h2" component="h2" color='secondary' alignContent='center' margin={"20px"}>
+
+                  <Typography variant="h2" component="h2" color='secondary' alignContent='center' margin={"20px"} fontStyle={"cursive"} fontFamily={'roboto'}>
             Canvas
             </Typography>
-                  </ThemeProvider>
+
 
             </Box>
 
@@ -135,7 +136,7 @@ const Canvas = () =>{
       
 
       <ThemeProvider theme={darkTheme}>
-      <Grid container justify="center" container spacing ={8} sx={{paddingLeft :10, paddingRight :10 }}>
+      <Grid container justify="center" container spacing ={5} sx={{paddingLeft :10, paddingRight :10 }}>
         {/* Projects */}
         {paintings.map((project, i) => (
           
@@ -160,7 +161,7 @@ const Canvas = () =>{
                 </CardContent> */}
 
               </CardActionArea>
-              <Typography variant="h6" component="h6" color='secondary' alignContent='center' fontFamily={'roboto'}>
+              <Typography variant="h6" component="h6" color='secondary' alignContent='center' fontFamily={'roboto'} paddingLeft={'10px'}>
             {project.name}  
             </Typography>
             </Card>

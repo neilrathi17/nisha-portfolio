@@ -203,14 +203,17 @@ function Navbar() {
           Nishappened
         </Typography>
           <div >
-           
-          <Link style={{color:"white", paddingLeft:"20px", textDecoration:"none"}} to="/canvas" >
+           <Button style={{ backgroundColor: 'transparent' }}>
+           <Link style={{color:"white", paddingLeft:"20px", textDecoration:"none"}} to="/canvas" >
               Canvases
             </Link>
+           </Button>
 
+           <Button style={{ backgroundColor: 'transparent' }}>
             <Link style={{color:"white", paddingLeft:"20px", textDecoration:"none"}} to="/murals" >
               Murals
             </Link>
+            </Button>
 
           </div>
       </Toolbar>
