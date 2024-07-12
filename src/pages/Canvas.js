@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from '../components/Navbar'
 import Appbar from "../components/Appbar";
-
+import Footer from "../components/Footer"
 import { createTheme, responsiveFontSizes } from '@mui/material/styles';
 
 import Box from '@mui/material/Box';
@@ -64,7 +64,7 @@ const paintings=[
           image : nightwalk
           },
         {
-            name : "mural 4",
+            name : "",
             image : image1
         },
         {
@@ -114,33 +114,26 @@ const Canvas = () =>{
 
     return(
         <div>
-{/* <Navbar/> */}
-<Appbar/>
+
+          <Appbar/>
             <Box
                 display="flex"
                 justifyContent="center"
                 alignItems="center"
                 // minHeight="100vh"
                 >
-
-                  <Typography variant="h2" component="h2" color='secondary' alignContent='center' margin={"20px"} fontStyle={"cursive"} fontFamily={'roboto'}>
+            <Typography variant="h2" component="h2" color='secondary' alignContent='center' margin={"20px"} fontStyle={"cursive"} fontFamily={'roboto'}>
             Canvas
             </Typography>
-
-
             </Box>
 
             <Box component="div">
-
-
-      
-
       <ThemeProvider theme={darkTheme}>
-      <Grid container justify="center" container spacing ={5} sx={{paddingLeft :10, paddingRight :10 }}>
+      <Grid container justify="center" container spacing ={5} sx={{paddingLeft :10, paddingRight :10, marginBottom: "10px" }}>
         {/* Projects */}
         {paintings.map((project, i) => (
           
-          <Grid item xs={12} sm={12} md={4} key={i}>
+          <Grid item xs={12} sm={6} md={4} key={i}>
             <ScrollAnimation animateIn="fadeIn" animatePreScroll={true} initiallyVisible={true} animateOnce={true}>
             <Card >
               <CardActionArea>
@@ -174,7 +167,7 @@ const Canvas = () =>{
         </ThemeProvider>
     </Box>
 
-
+        <Footer/>
         </div>
        
     )

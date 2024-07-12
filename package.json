@@ -1,7 +1,7 @@
 {
   "name": "nisha-portfolio",
   "version": "0.1.0",
-  "homepage":"https://neilrathi17.github.io/nisha-portfolio",
+  "homepage":"https://neilrathi17.github.io/nisha-portfolio/canvas",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",

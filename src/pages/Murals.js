@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from '../components/Navbar'
 import Appbar from "../components/Appbar"
-
+import Footer from "../components/Footer"
 import { createTheme, responsiveFontSizes } from '@mui/material/styles';
-
+import Image from "../components/Image";
 
 import Box from '@mui/material/Box';
 
@@ -22,15 +22,15 @@ import image3 from "../images/mural/IMG_0128.PNG"
 
 const paintings=[
     {
-        name : "mural 1",
+        name : "Golden Leaves",
         image : image1
     },
         {
-        name : "mural 2",
+        name : "Tropical Leaves",
         image : image2
         },
         {
-            name : "mural 3",
+            name : "Family",
             image : image3
         }
 
@@ -59,13 +59,14 @@ const Murals = () =>{
           <Grid item xs={12} sm={12} md={4} key={i}>
             <Card >
               <CardActionArea>
-                <CardMedia
+                <Image src={project.image} border={true} zoom={true} style={{height:"600px"}}></Image>
+                {/* <CardMedia
                   component="img"
                   alt="Project 1"
 
                   height="550"
                   image={project.image}
-                />
+                /> */}
                 {/* <CardContent>
                   <Typography variant="h5" gutterBottom>
                     {project.name}
@@ -76,8 +77,8 @@ const Murals = () =>{
                 </CardContent> */}
 
               </CardActionArea>
-              <Typography variant="h6" component="h6" color='primary' alignContent='center'>
-            {project.description}
+              <Typography variant="h6" component="h6" color='secondary' alignContent='center' fontFamily={'roboto'} paddingLeft={'10px'}>
+            {project.name}
             </Typography>
             </Card>
           </Grid>
@@ -86,7 +87,7 @@ const Murals = () =>{
     </Box>
            
 
-
+        <Footer/>
         </div>
        
     )
