@@ -1,24 +1,32 @@
 {
   "files": {
-    "main.css": "/nishappened/static/css/main.e1cdc635.css",
-    "main.js": "/nishappened/static/js/main.458564fe.js",
-    "static/js/453.e461330f.chunk.js": "/nishappened/static/js/453.e461330f.chunk.js",
-    "static/media/IMG_0122.PNG": "/nishappened/static/media/IMG_0122.a641fb24903f968bdd51.PNG",
-    "static/media/Autumn.PNG": "/nishappened/static/media/Autumn.d58d8509fbb93169b545.PNG",
-    "static/media/IMG_0123.PNG": "/nishappened/static/media/IMG_0123.f1802e53f4f80a22f84a.PNG",
-    "static/media/IMG_0121.PNG": "/nishappened/static/media/IMG_0121.43a5951f9890f042945f.PNG",
-    "static/media/IMG_0127.PNG": "/nishappened/static/media/IMG_0127.ec49b1d8326cdabc5391.PNG",
-    "static/media/IMG_0120.PNG": "/nishappened/static/media/IMG_0120.f6001616b3033aec9869.PNG",
-    "static/media/IMG_0128.PNG": "/nishappened/static/media/IMG_0128.95743dd89264758fd913.PNG",
-    "static/media/Aaure.PNG": "/nishappened/static/media/Aaure.00cda0a16b05662a476d.PNG",
-    "static/media/Starfire.PNG": "/nishappened/static/media/Starfire.d112f3727e01f2a03ca5.PNG",
-    "index.html": "/nishappened/index.html",
-    "main.e1cdc635.css.map": "/nishappened/static/css/main.e1cdc635.css.map",
-    "main.458564fe.js.map": "/nishappened/static/js/main.458564fe.js.map",
-    "453.e461330f.chunk.js.map": "/nishappened/static/js/453.e461330f.chunk.js.map"
+    "main.css": "/nisha-portfolio/static/css/main.d9b27f11.css",
+    "main.js": "/nisha-portfolio/static/js/main.8cd81be8.js",
+    "static/js/453.e461330f.chunk.js": "/nisha-portfolio/static/js/453.e461330f.chunk.js",
+    "static/media/IMG_0131.PNG": "/nisha-portfolio/static/media/IMG_0131.31339308b5ebbabb0553.PNG",
+    "static/media/IMG_0133.PNG": "/nisha-portfolio/static/media/IMG_0133.00f23412664ad36dc95e.PNG",
+    "static/media/Nightwalk.PNG": "/nisha-portfolio/static/media/Nightwalk.3d2e89898298f087e8bd.PNG",
+    "static/media/IMG_0122.PNG": "/nisha-portfolio/static/media/IMG_0122.a641fb24903f968bdd51.PNG",
+    "static/media/Autumn.PNG": "/nisha-portfolio/static/media/Autumn.d58d8509fbb93169b545.PNG",
+    "static/media/IMG_0134.PNG": "/nisha-portfolio/static/media/IMG_0134.d73e7a76a235043afbfc.PNG",
+    "static/media/IMG_0123.PNG": "/nisha-portfolio/static/media/IMG_0123.f1802e53f4f80a22f84a.PNG",
+    "static/media/IMG_0129.PNG": "/nisha-portfolio/static/media/IMG_0129.f107275bf37627bc8355.PNG",
+    "static/media/IMG_0121.PNG": "/nisha-portfolio/static/media/IMG_0121.43a5951f9890f042945f.PNG",
+    "static/media/IMG_0127.PNG": "/nisha-portfolio/static/media/IMG_0127.ec49b1d8326cdabc5391.PNG",
+    "static/media/IMG_0120.PNG": "/nisha-portfolio/static/media/IMG_0120.f6001616b3033aec9869.PNG",
+    "static/media/IMG_0124.PNG": "/nisha-portfolio/static/media/IMG_0124.754f91ec40b12586e646.PNG",
+    "static/media/IMG_0128.PNG": "/nisha-portfolio/static/media/IMG_0128.95743dd89264758fd913.PNG",
+    "static/media/IMG_0130.PNG": "/nisha-portfolio/static/media/IMG_0130.5895f8a7eccb82a9517b.PNG",
+    "static/media/Aaure.PNG": "/nisha-portfolio/static/media/Aaure.00cda0a16b05662a476d.PNG",
+    "static/media/Starfire.PNG": "/nisha-portfolio/static/media/Starfire.d112f3727e01f2a03ca5.PNG",
+    "static/media/IMG_0125.PNG": "/nisha-portfolio/static/media/IMG_0125.4aa6fb691bbcede82d0c.PNG",
+    "index.html": "/nisha-portfolio/index.html",
+    "main.d9b27f11.css.map": "/nisha-portfolio/static/css/main.d9b27f11.css.map",
+    "main.8cd81be8.js.map": "/nisha-portfolio/static/js/main.8cd81be8.js.map",
+    "453.e461330f.chunk.js.map": "/nisha-portfolio/static/js/453.e461330f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1cdc635.css",
-    "static/js/main.458564fe.js"
+    "static/css/main.d9b27f11.css",
+    "static/js/main.8cd81be8.js"
   ]
 }
