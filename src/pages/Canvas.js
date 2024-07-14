@@ -10,8 +10,7 @@ import "animate.css/animate.compat.css"
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 import CardActionArea from "@mui/material/CardActionArea";
-import CardActions from "@mui/material/CardActions";
-import CardContent from "@mui/material/CardContent";
+import { Container } from "@mui/material";
 import CardMedia from "@mui/material/CardMedia";
 
 import Typography from "@mui/material/Typography";
@@ -64,43 +63,43 @@ const paintings=[
           image : nightwalk
           },
         {
-            name : "",
+            name : "Sycore",
             image : image1
         },
         {
-            name : "mural 3",
+            name : "Drowning",
             image : image2
         },
         {
-            name : "mural 3",
+            name : "HoneyHoney",
             image : image3
         },
                 {
-            name : "mural 3",
+            name : "LightCity",
             image : image4
         },
         {
-          name : "mural 3",
+          name : "Chalk Girl",
           image : image5
       },
       {
-        name : "mural 3",
+        name : "Blooming",
         image : image6
     },
     {
-      name : "mural 3",
+      name : "The Blue Abstract",
       image : image7
   },
   {
-    name : "mural 3",
+    name : "Abstract Ganesha",
     image : image8
 },
 {
-  name : "mural 3",
+  name : "Roza",
   image : image9
 },
 {
-  name : "mural 3",
+  name : "Liar Pants",
   image : image10
 },
 
@@ -127,13 +126,21 @@ const Canvas = () =>{
             </Typography>
             </Box>
 
-            <Box component="div">
+
+              <Container maxWidth={false}>
       <ThemeProvider theme={darkTheme}>
-      <Grid container justify="center" container spacing ={5} sx={{paddingLeft :10, paddingRight :10, marginBottom: "10px" }}>
+      <Grid container justify="center" styles={{paddingLeft:"100px"}} sx={(theme) => ({
+            [theme.breakpoints.only("xs")]: {
+              paddingLeft:"15px !important",
+              paddingRight:"15px !important"
+            }
+          })}  container spacing ={5} >
+{/* 
+sx={}{paddingLeft :10, paddingRight :10, marginBottom: "10px" } */}
         {/* Projects */}
         {paintings.map((project, i) => (
-          
-          <Grid item xs={12} sm={6} md={4} key={i}>
+
+          <Grid item xs={12} sm={6} md={4} key={i} >
             <ScrollAnimation animateIn="fadeIn" animatePreScroll={true} initiallyVisible={true} animateOnce={true}>
             <Card >
               <CardActionArea>
@@ -165,7 +172,9 @@ const Canvas = () =>{
         ))}
       </Grid>
         </ThemeProvider>
-    </Box>
+        </Container> 
+
+  
 
         <Footer/>
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from '../components/Navbar'
 import Appbar from "../components/Appbar"
 import Footer from "../components/Footer"
-import { createTheme, responsiveFontSizes } from '@mui/material/styles';
+import { Container } from "@mui/material";
 import Image from "../components/Image";
 
 import Box from '@mui/material/Box';
@@ -52,29 +52,19 @@ const Murals = () =>{
             </Typography>
             </Box>
 
-            <Box component="div">
-      <Grid container justify="center" container spacing ={8} sx={{paddingLeft :10, paddingRight :10 }}>
+      <Container maxWidth={false}>
+      <Grid container justify="center" container spacing ={8} sx={(theme) => ({
+            [theme.breakpoints.only("xs")]: {
+              paddingLeft:"15px !important",
+              paddingRight:"15px !important"
+            }
+          })}>
         {/* Projects */}
         {paintings.map((project, i) => (
           <Grid item xs={12} sm={12} md={4} key={i}>
             <Card >
               <CardActionArea>
                 <Image src={project.image} border={true} zoom={true} style={{height:"600px"}}></Image>
-                {/* <CardMedia
-                  component="img"
-                  alt="Project 1"
-
-                  height="550"
-                  image={project.image}
-                /> */}
-                {/* <CardContent>
-                  <Typography variant="h5" gutterBottom>
-                    {project.name}
-                  </Typography>
-                  <Typography variant="body2" color="textSecondary">
-                    {project.description}
-                  </Typography>
-                </CardContent> */}
 
               </CardActionArea>
               <Typography variant="h6" component="h6" color='secondary' alignContent='center' fontFamily={'roboto'} paddingLeft={'10px'}>
@@ -84,7 +74,7 @@ const Murals = () =>{
           </Grid>
         ))}
       </Grid>
-    </Box>
+      </Container>
            
 
         <Footer/>

@@ -15,26 +15,7 @@ const darkTheme = createTheme({
     mode: 'dark',
   },
 });
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
+
 function App() {
   return (
     <ThemeProvider theme={darkTheme}>
@@ -42,7 +23,7 @@ function App() {
 
     <BrowserRouter>
     <Routes>
-        <Route exact path="/" element={<Canvas/>} />
+        <Route exact path="/nisha-portfolio" element={<Canvas/>} />
         <Route exact path="/canvas" element={<Canvas/>} />
         <Route exact path="/murals" element={<Murals/>} />
 
