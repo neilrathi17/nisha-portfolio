@@ -21,9 +21,9 @@ function App() {
     <ThemeProvider theme={darkTheme}>
     <React.Fragment>
 
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes>
-        <Route exact path="/nisha-portfolio" element={<Canvas/>} />
+        <Route exact path="/" element={<Canvas/>} />
         <Route exact path="/canvas" element={<Canvas/>} />
         <Route exact path="/murals" element={<Murals/>} />
 
