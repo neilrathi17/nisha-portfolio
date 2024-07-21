@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from '../components/Navbar'
 import Appbar from "../components/Appbar";
 import Footer from "../components/Footer"
 import { createTheme, responsiveFontSizes } from '@mui/material/styles';
@@ -12,7 +11,7 @@ import Card from "@mui/material/Card";
 import CardActionArea from "@mui/material/CardActionArea";
 import { Container } from "@mui/material";
 import CardMedia from "@mui/material/CardMedia";
-
+import Image from "../components/Image";
 import Typography from "@mui/material/Typography";
 import ScrollAnimation from 'react-animate-on-scroll';
 import aaure from "../images/canvas/Aaure.PNG"
@@ -29,6 +28,9 @@ import image7 from "../images/canvas/IMG_0130.PNG"
 import image8 from "../images/canvas/IMG_0131.PNG"
 import image9 from "../images/canvas/IMG_0133.PNG"
 import image10 from "../images/canvas/IMG_0134.PNG"
+import aquamarine from "../images/canvas/Aquamarine.PNG"
+import smoulder from "../images/canvas/Smoulder.png"
+import wounding from "../images/canvas/Wounding.png"
 import { ThemeProvider } from "@emotion/react";
 
 <style>
@@ -102,6 +104,19 @@ const paintings=[
   name : "Liar Pants",
   image : image10
 },
+{
+  name : "Aquamarine",
+  image : aquamarine
+},
+{
+  name: "Smoulder",
+  image : smoulder
+},
+{
+  name : "Wounding",
+  image : wounding
+}
+
 
 
 ]
@@ -151,14 +166,7 @@ sx={}{paddingLeft :10, paddingRight :10, marginBottom: "10px" } */}
                   height="550"
                   image={project.image}
                 />
-                {/* <CardContent>
-                  <Typography variant="h5" gutterBottom>
-                    {project.name}
-                  </Typography>
-                  <Typography variant="body2" color="textSecondary">
-                    {project.description}
-                  </Typography>
-                </CardContent> */}
+                {/* <Image src={project.image} border={true} zoom={true} style={{height:"600px"}}></Image> */}
 
               </CardActionArea>
               <Typography variant="h6" component="h6" color='secondary' alignContent='center' fontFamily={'roboto'} paddingLeft={'10px'}>

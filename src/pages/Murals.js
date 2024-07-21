@@ -19,6 +19,11 @@ import Typography from "@mui/material/Typography";
 import image1 from "../images/mural/IMG_0122.PNG"
 import image2 from "../images/mural/IMG_0127.PNG"
 import image3 from "../images/mural/IMG_0128.PNG"
+import image4 from "../images/mural/Baloo.PNG"
+import image5 from "../images/mural/Sea_Monster.PNG"
+import image6 from "../images/mural/La_Villa.png"
+
+
 
 const paintings=[
     {
@@ -32,6 +37,18 @@ const paintings=[
         {
             name : "Family",
             image : image3
+        },
+        {
+          name:"Baloo",
+          image:image4
+        },
+        {
+          name:"La Vila",
+          image:image6
+        },
+        {
+          name:"Sea Monster",
+          image:image5
         }
 
 ]
