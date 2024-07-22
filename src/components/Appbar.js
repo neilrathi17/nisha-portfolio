@@ -52,7 +52,7 @@ function Navbar() {
             variant="h6"
             noWrap
             component="a"
-            href="/canvas"
+            href="/nisha-portfolio/Canvas"
             sx={{
               mr: 4,
               display: { xs: 'none', md: 'flex' },

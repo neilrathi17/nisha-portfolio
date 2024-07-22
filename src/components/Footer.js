@@ -4,6 +4,7 @@ import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 import Grid from "@mui/material/Grid";
 import { Facebook, Instagram, Twitter } from "@mui/icons-material";
+import InstagramIcon from '@mui/icons-material/Instagram';
 import { Box } from "@mui/material";
 
 export default function Footer() {
@@ -55,10 +56,10 @@ export default function Footer() {
               color="inherit"
               sx={{ pl: 1, pr: 1 }}
             >
-              <Instagram />
+              <InstagramIcon sx={{color:"white"}} />
             </Link>
             <Link href="https://www.twitter.com/" color="inherit">
-              <Twitter />
+              <Twitter sx={{color:"white"}} />
             </Link>
 
             </Typography>
