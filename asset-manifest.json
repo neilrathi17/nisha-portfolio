@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nisha-portfolio/static/css/main.5c48d171.css",
-    "main.js": "/nisha-portfolio/static/js/main.72f1f540.js",
+    "main.js": "/nisha-portfolio/static/js/main.c4318faa.js",
     "static/js/453.e461330f.chunk.js": "/nisha-portfolio/static/js/453.e461330f.chunk.js",
     "static/media/Wounding.png": "/nisha-portfolio/static/media/Wounding.d69c191434d881800169.png",
     "static/media/Smoulder.png": "/nisha-portfolio/static/media/Smoulder.c738196ed3a74efd1a2d.png",
@@ -28,11 +28,11 @@
     "static/media/IMG_0125.PNG": "/nisha-portfolio/static/media/IMG_0125.4aa6fb691bbcede82d0c.PNG",
     "index.html": "/nisha-portfolio/index.html",
     "main.5c48d171.css.map": "/nisha-portfolio/static/css/main.5c48d171.css.map",
-    "main.72f1f540.js.map": "/nisha-portfolio/static/js/main.72f1f540.js.map",
+    "main.c4318faa.js.map": "/nisha-portfolio/static/js/main.c4318faa.js.map",
     "453.e461330f.chunk.js.map": "/nisha-portfolio/static/js/453.e461330f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c48d171.css",
-    "static/js/main.72f1f540.js"
+    "static/js/main.c4318faa.js"
   ]
 }
