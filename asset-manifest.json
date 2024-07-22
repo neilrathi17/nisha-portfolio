@@ -1,12 +1,16 @@
 {
   "files": {
-    "main.css": "/nisha-portfolio/static/css/main.d9b27f11.css",
-    "main.js": "/nisha-portfolio/static/js/main.9cdbb9ed.js",
+    "main.css": "/nisha-portfolio/static/css/main.5c48d171.css",
+    "main.js": "/nisha-portfolio/static/js/main.72f1f540.js",
     "static/js/453.e461330f.chunk.js": "/nisha-portfolio/static/js/453.e461330f.chunk.js",
+    "static/media/Wounding.png": "/nisha-portfolio/static/media/Wounding.d69c191434d881800169.png",
+    "static/media/Smoulder.png": "/nisha-portfolio/static/media/Smoulder.c738196ed3a74efd1a2d.png",
+    "static/media/La_Villa.png": "/nisha-portfolio/static/media/La_Villa.f8600005c8b2fad89e74.png",
     "static/media/IMG_0131.PNG": "/nisha-portfolio/static/media/IMG_0131.31339308b5ebbabb0553.PNG",
     "static/media/IMG_0133.PNG": "/nisha-portfolio/static/media/IMG_0133.00f23412664ad36dc95e.PNG",
     "static/media/Nightwalk.PNG": "/nisha-portfolio/static/media/Nightwalk.3d2e89898298f087e8bd.PNG",
     "static/media/IMG_0122.PNG": "/nisha-portfolio/static/media/IMG_0122.a641fb24903f968bdd51.PNG",
+    "static/media/Aquamarine.PNG": "/nisha-portfolio/static/media/Aquamarine.92dd9de244f4926255f8.PNG",
     "static/media/Autumn.PNG": "/nisha-portfolio/static/media/Autumn.d58d8509fbb93169b545.PNG",
     "static/media/IMG_0134.PNG": "/nisha-portfolio/static/media/IMG_0134.d73e7a76a235043afbfc.PNG",
     "static/media/IMG_0123.PNG": "/nisha-portfolio/static/media/IMG_0123.f1802e53f4f80a22f84a.PNG",
@@ -14,19 +18,21 @@
     "static/media/IMG_0121.PNG": "/nisha-portfolio/static/media/IMG_0121.43a5951f9890f042945f.PNG",
     "static/media/IMG_0127.PNG": "/nisha-portfolio/static/media/IMG_0127.ec49b1d8326cdabc5391.PNG",
     "static/media/IMG_0120.PNG": "/nisha-portfolio/static/media/IMG_0120.f6001616b3033aec9869.PNG",
+    "static/media/Baloo.PNG": "/nisha-portfolio/static/media/Baloo.876c3eff486fcb3031e5.PNG",
     "static/media/IMG_0124.PNG": "/nisha-portfolio/static/media/IMG_0124.754f91ec40b12586e646.PNG",
     "static/media/IMG_0128.PNG": "/nisha-portfolio/static/media/IMG_0128.95743dd89264758fd913.PNG",
+    "static/media/Sea_Monster.PNG": "/nisha-portfolio/static/media/Sea_Monster.eed5611bf7dc70821812.PNG",
     "static/media/IMG_0130.PNG": "/nisha-portfolio/static/media/IMG_0130.5895f8a7eccb82a9517b.PNG",
     "static/media/Aaure.PNG": "/nisha-portfolio/static/media/Aaure.00cda0a16b05662a476d.PNG",
     "static/media/Starfire.PNG": "/nisha-portfolio/static/media/Starfire.d112f3727e01f2a03ca5.PNG",
     "static/media/IMG_0125.PNG": "/nisha-portfolio/static/media/IMG_0125.4aa6fb691bbcede82d0c.PNG",
     "index.html": "/nisha-portfolio/index.html",
-    "main.d9b27f11.css.map": "/nisha-portfolio/static/css/main.d9b27f11.css.map",
-    "main.9cdbb9ed.js.map": "/nisha-portfolio/static/js/main.9cdbb9ed.js.map",
+    "main.5c48d171.css.map": "/nisha-portfolio/static/css/main.5c48d171.css.map",
+    "main.72f1f540.js.map": "/nisha-portfolio/static/js/main.72f1f540.js.map",
     "453.e461330f.chunk.js.map": "/nisha-portfolio/static/js/453.e461330f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9b27f11.css",
-    "static/js/main.9cdbb9ed.js"
+    "static/css/main.5c48d171.css",
+    "static/js/main.72f1f540.js"
   ]
 }
